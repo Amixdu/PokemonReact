@@ -11,8 +11,6 @@ function App() {
   const [prevPageURL, setPrevPageURL] = useState()
   const [loading, setLoading] = useState(true)
 
-
-
   useEffect(() => {
     setLoading(true)
 
